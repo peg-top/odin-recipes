@@ -1,9 +1,9 @@
- Project: Recipes
- 
+Project: Recipes
+
  The Odin Project
  Foundation
 
- https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes
+ <https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes>
 
 Assignment
 Iteration 1: Initial structure
@@ -32,3 +32,66 @@ Iteration 4: Add More Recipes
     Add two more recipes with identical page structures to the recipe page you’ve already created.
     Don’t forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren’t all on one line.
 
+Project Skyfold
+
+odin-recipes
+    images
+        recipe-1.jpg
+        recipe-1.jpg
+        recipe-1.jpg
+    recipes
+        recipe-1.html
+        recipe-2.html
+        recipe-3.html
+index.html
+
+Boilerplates
+
+index.html
+
+!doctype
+html
+    head
+        title Odin Recipes
+        meta charset UTF-8 lang=EN
+    body
+        h1 Odin Recipes
+        img odin-recipes-header.jpg
+        p Page Description
+        h2 List of links
+        ul
+            li a recipes\recipe-1.html
+            li a recipes\recipe-2.html
+            li a recipes\recipe-3.html
+        ul
+            li a english-lang
+            li a russian-lang
+        a #top
+
+recipe-#.html
+
+!doctype
+html
+    head
+        title Recipe # Title
+        meta charset lang
+    body
+        h1 Recipe #
+        img recipe-#.jpg
+        p Description
+        h2 Ingridients
+        ul
+            li
+            li
+            li
+        h2 Instructions
+        ul
+            li
+            li
+            li
+        ul
+            li a english-lang
+            li a russian-lang
+        a #top
+
+used tags: html, body, title, meta, h1, p, ul, li, a
